@@ -1,0 +1,39 @@
+# This file is demo to run qfvim plugin.
+
+# Last Change: 2016-10-24 10:51:36 PDT
+
+# Test for Log Message
+# Run command QFHighlightMessage in vim/gvim
+# if plugin works well, warning line has grey background and error line has red background.
+
+QF-INFO: this is an information line.
+
+QF-WARN: this is an warning line.
+
+QF-ERROR: this is an error line.
+MY-ERROR: this is an error line.
+
+
+# Test for Space Fold
+# type command : QFSpaceFold, then use space to toggle the fold and unfold action.
+
+root
+  parent1
+    child1
+    child2
+  parent2
+    child3
+    child4
+
+# Test for QFDedumplicate
+# type command : QFDedumplicate to view the affection.
+
+top/block1/block2/D
+top/block2/block3/D
+top/block1/block2/D
+top/block1/block2/D
+top/block1/block4/D
+top/block2/block2/D
+
+
+# vim: ft=demo
