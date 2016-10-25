@@ -1,12 +1,13 @@
 # This file is demo to run qfvim plugin.
 
-# Last Change: 2016-10-24 10:51:36 PDT
+# Last Change: 2016-10-24 15:35:38 PDT
 
 # Test for Log Message
 # Run command QFHighlightMessage in vim/gvim
 # if plugin works well, warning line has grey background and error line has red background.
 
 QF-INFO: this is an information line.
+
 
 QF-WARN: this is an warning line.
 

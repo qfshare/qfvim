@@ -1,5 +1,5 @@
 " File: update_time.vim
-" Last Change: 2016-10-24 11:02:33 PDT
+" Last Change: 2016-10-24 15:38:06 PDT
 " Description: Automatic update Last Change time
 
 " SECTION: Init"{{{
@@ -65,6 +65,9 @@ fun Update_time_update()
     exe pos
 endf
 fun Update_time_toggle()
+    if !exists('s:update_time_enable')
+      let s:update_time_enable = 1
+    endif
     let s:update_time_enable = !s:update_time_enable
 endf
 "}}}
